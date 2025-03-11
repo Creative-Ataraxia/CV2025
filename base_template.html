@@ -25,17 +25,7 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
-
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-
- article,
+    article,
 aside,
 details,
 figcaption,
@@ -50,141 +40,70 @@ summary {
     display: block;
 }
 
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-
 audio,
 canvas,
 video {
     display: inline-block;
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-
 audio:not([controls]) {
     display: none;
     height: 0;
 }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9.
- * Hide the `template` element in IE, Safari, and Firefox < 22.
- */
 
 [hidden],
 template {
     display: none;
 }
 
-/* ==========================================================================
-   Base
-   ========================================================================== */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-
 html {
     font-family: "Consolas", "Calibri", "Lato", "Helvetica", sans-serif;
-    /* 1 */
-    -ms-text-size-adjust: 100%;
-    /* 2 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
-}
-
-/**
- * Remove default margin.
- */
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
 
 body {
     margin: 0;
 }
 
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-/**
- * Remove the gray background color from active links in IE 10.
- */
-
 a {
     background: transparent;
 }
 
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-
 a:focus {
     outline: thin dotted;
 }
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
 
 a:active,
 a:hover {
     outline: 0;
 }
 
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
-
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
 
 abbr[title] {
     border-bottom: 1px dotted;
 }
 
 .subtitle {
-    font-size: 1.25em;         /* increased font size */
+    font-size: 1.25em;       
     font-weight: 500;
     text-align: center;
-    color: #131313;              /* darker color for improved readability */
+    color: #131313;           
 }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
 
 b,
 strong {
     font-weight: bold;
 }
 
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-
 dfn {
     font-style: italic;
 }
 
-/**
- * Address differences between Firefox and other browsers.
- */
 
 hr {
     -moz-box-sizing: content-box;
@@ -192,18 +111,12 @@ hr {
     height: 0;
 }
 
-/**
- * Address styling not present in IE 8/9.
- */
 
 mark {
     background: #ff0;
     color: #000;
 }
 
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
 
 code,
 kbd,
@@ -213,33 +126,21 @@ samp {
     font-size: 1em;
 }
 
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
 
 pre {
     white-space: pre-wrap;
 }
 
-/**
- * Set consistent quote types.
- */
 
 q {
     quotes: "\201C""\201D""\2018""\2019";
 }
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
 
 small {
     font-size: 80%;
 }
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
 
 sub,
 sup {
@@ -257,45 +158,24 @@ sub {
     bottom: -0.25em;
 }
 
-/* ==========================================================================
-   Embedded content
-   ========================================================================== */
 
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
 
 img {
     border: 0;
 }
 
-/**
- * Correct overflow displayed oddly in IE 9.
- */
 
 svg:not(:root) {
     overflow: hidden;
 }
 
-/* ==========================================================================
-   Figures
-   ========================================================================== */
 
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
 
 figure {
     margin: 0;
 }
 
-/* ==========================================================================
-   Forms
-   ========================================================================== */
 
-/**
- * Define consistent border, margin, and padding.
- */
 
 fieldset {
     border: 1px solid #c0c0c0;
@@ -303,127 +183,70 @@ fieldset {
     padding: 0.35em 0.625em 0.75em;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
 
 legend {
     border: 0;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-}
+        padding: 0;
+    }
 
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
 
 button,
 input,
 select,
 textarea {
     font-family: inherit;
-    /* 1 */
-    font-size: 100%;
-    /* 2 */
-    margin: 0;
-    /* 3 */
-}
+        font-size: 100%;
+        margin: 0;
+    }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
 
 button,
 input {
     line-height: normal;
 }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
- */
 
 button,
 select {
     text-transform: none;
 }
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
 
 button,
 html input[type="button"],
-/* 1 */
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
-    /* 2 */
-    cursor: pointer;
-    /* 3 */
-}
+        cursor: pointer;
+    }
 
-/**
- * Re-set default cursor for disabled elements.
- */
 
 button[disabled],
 html input[disabled] {
     cursor: default;
 }
 
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
 
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-}
+        padding: 0;
+    }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
 
 input[type="search"] {
     -webkit-appearance: textfield;
-    /* 1 */
-    -moz-box-sizing: content-box;
+        -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
-    /* 2 */
-    box-sizing: content-box;
+        box-sizing: content-box;
 }
 
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -431,25 +254,13 @@ input::-moz-focus-inner {
     padding: 0;
 }
 
-/**
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
- */
 
 textarea {
     overflow: auto;
-    /* 1 */
-    vertical-align: top;
-    /* 2 */
-}
+        vertical-align: top;
+    }
 
-/* ==========================================================================
-   Tables
-   ========================================================================== */
 
-/**
- * Remove most spacing between table cells.
- */
 
 table {
     border-collapse: collapse;
@@ -467,7 +278,6 @@ table {
     display: inline;
 }
 
-/* Github css */
 
 
 @font-face {
@@ -548,7 +358,7 @@ h6 {
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 30px;
     color: #000;
     text-align: center
 }
@@ -560,7 +370,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 17px;
     color: #333;
     -webkit-margin-before: 0.01em;
     -webkit-margin-after: 0.01em;
@@ -592,7 +402,7 @@ h6 {
 
 .special {
     font-size: 0.1px !important;
-    opacity: 0;  /* makes the text fully invisible */
+    opacity: 0;
 }
 
 p,
@@ -1206,78 +1016,84 @@ sub {
 <p class="subtitle">Machine Learning Engineer</p>
 <p class="author">Roy Ma</p>
 </header>
-<h6 id="codes-roy.ma9gmail.com-kaggle">[<a
-href="https://creative-ataraxia.com/">Codes</a>] · [<a
-href="emailto:roy.ma9@gmail.com">roy.ma9@gmail.com</a>] · [<a
-href="https://www.kaggle.com/alexmason11">Kaggle</a>]</h6>
+<h6 id="codes-roy.ma9gmail.com-kaggle-manassas-va-20110">[<a
+href="https://www.creative-ataraxia.com/">Codes</a>] · [<a
+href="mailto:roy.ma9@gmail.com">roy.ma9@gmail.com</a>] · [<a
+href="https://www.kaggle.com/alexmason11">Kaggle</a>] · Manassas, VA
+20110</h6>
 <!-- markdownlint-disable MD033 -->
 <section
-id="results-driven-mle-with-mitx-credential-in-statistics-and-data-science-kaggle-competitions-expert-ranked-top-0.8-globally-skilled-in-building-and-deploying-sota-mldl-solutions-adept-at-applying-rigorous-cs-fundamentals-and-advanced-ml-algorithms-to-solve-complex-real-world-problems.-finra-designated-finance-executive-with-10-years-of-experience-in-business-development-quantitative-analysis-and-financial-modeling.-founder-of-an-executive-english-training-school-designed-curriculum-systems-and-delivered-600-live-sessions."
+id="results-driven-mle-with-mitx-credentials-in-stat-and-ds-kaggle-competitions-expert-ranked-top-0.8-skilled-in-developing-and-deploying-sota-mldl-solutions-applying-cs-fundamentals-and-ml-algorithms-to-solve-real-world-problems.-finra-designated-securities-professional-with-10-years-of-experience-in-business-development-quantitative-analysis-and-financial-modeling.-founder-of-a-business-english-school-for-executives-independently-authored-curriculums-and-personally-delivered-600-live-sessions."
 class="summary-section">
-<h3>Results-driven <strong>MLE</strong> with MITx credential in
-statistics and data science, Kaggle competitions expert ranked top 0.8%
-globally, skilled in building and deploying SOTA ML/DL solutions, adept
-at applying rigorous CS fundamentals and advanced ML algorithms to solve
-complex real-world problems. <strong>FINRA</strong>-designated finance
-executive with 10+ years of experience in business development,
-quantitative analysis, and financial modeling. <strong>Founder</strong>
-of an executive English training school, designed curriculum systems and
+<h3>Results-driven <strong>MLE</strong> with MITx credentials in stat
+and DS, Kaggle competitions expert ranked top 0.8%, skilled in
+developing and deploying SOTA ML/DL solutions, applying CS fundamentals
+and ML algorithms to solve real-world problems.
+<strong>FINRA</strong>-designated securities professional with 10+ years
+of experience in business development, quantitative analysis, and
+financial modeling. <strong>Founder</strong> of a business English
+school for executives, independently authored curriculums and personally
 delivered 600+ live sessions.</h3>
 </section>
 <h2 id="technical-experience">Technical Experience</h2>
-<h3 id="kaggle-competitions-expert-global-rank-top-0.8">Kaggle
-Competitions Expert, Global rank: top 0.8%</h3>
-<p><code>Competition</code> <strong>LLMs</strong> - You Can’t Please
-Them All, ranked top <strong>3%</strong></p>
+<h3 id="competitions-expert-kaggle-ranking-top-0.8">Competitions Expert,
+Kaggle ranking top 0.8%</h3>
+<p><strong>LLMs</strong> - You Can’t Please Them All, ranked top
+<strong>3%</strong> (Silver Medal)</p>
 <ul>
-<li>Designed and implemented research-intensive code modules with
-iterative Bayesian chaining to deduce LLM behaviors without any explicit
-parameters.</li>
-<li>Work with a team of ML experts to develop complete solutions to
-evaluate template-, heuristic-, and optimization-based LLM manipulation
-injection attacks, iteratively deducing black-box LLM
-interpretability.</li>
-<li>Competition results: top 3%, silver medal awarded.</li>
-<li><strong>Technologies used:</strong> <code>Pytorch</code>,
-<code>Transformers</code>, <code>Sklearn</code>, <code>XGB</code></li>
+<li>Collaborated with a team of ML experts to develop adversarial
+strategies targeting Large Language Model (LLM), enhancing robustness
+and security.</li>
+<li>Engineered iterative Bayesian chaining to infer LLM behaviors
+without explicit parameter access, advancing interpretability and
+reliability.</li>
+<li>Developed and evaluated template-, heuristic-, and
+optimization-based injection attacks, contributing to the development of
+more secure AI systems.</li>
+<li><strong>Technologies:</strong> <code>Pytorch</code>,
+<code>Transformers</code>, <code>scikit-learn</code>,
+<code>XGBoost</code>, <code>Numpy</code>, <code>Pandas</code></li>
 </ul>
-<p><code>Competition</code> <strong>Jane Street</strong> Real-Time
-Market Data Forecasting, ranked top <strong>6%</strong></p>
+<p><strong>Jane Street</strong> Real-Time Market Data Forecasting,
+ranked top <strong>6%</strong> (Bronze Medal)</p>
 <ul>
-<li>Independently developed and pretrained a financial forecasting model
-with real-time online model finetuning.</li>
-<li>Designed an extensive data/feature engineering pipeline, ensuring
-minimal training noise, and efficient signals detection.</li>
-<li>Developed extensive QA codes, and parameters tuning, designed and
-deployed efficient cloud-based training optimization workflows.</li>
-<li>Competition results: top 6%, bronze medal awarded.</li>
-<li><strong>Technologies used:</strong> <code>Pytorch</code>,
-<code>Tensorflow</code>, <code>XGB</code>, <code>LGBM</code>,
-<code>CATB</code>, <code>Sklearn</code>, <code>Polars</code></li>
+<li>Independently designed and trained a financial forecasting RNN model
+incorporating real-time online fine-tuning, enhancing predictive
+accuracy with real-time market data.</li>
+<li>Developed data and feature engineering pipeline, reducing training
+noise and improving signal detection.</li>
+<li>Implemented extensive quality assurance protocols and hyperparameter
+optimization, deploying efficient cloud-based training workflows.</li>
+<li><strong>Technologies:</strong> <code>Pytorch</code>,
+<code>Tensorflow</code>, <code>XGBoost</code>, <code>CatBoost</code>,
+<code>scikit-learn</code>, <code>Polars</code>, <code>Numpy</code>,
+<code>Pandas</code>, <code>SQL</code>, <code>AWS EC2</code>,
+<code>AWS S3</code>, <code>Docker</code>, <code>Git</code></li>
 </ul>
-<p><code>Competition</code> <strong>Santa 2024</strong> - The Perplexity
-Permutation Puzzle, ranked top <strong>5%</strong></p>
+<p><strong>Santa 2024</strong> - The Perplexity Permutation Puzzle,
+ranked top <strong>5%</strong> (Bronze Medal)</p>
 <ul>
-<li>Independently designed and developed efficient simulated annealing
-algorithms to solve LLM black-box optimizations in the 9e157
-magnitude.</li>
-<li>Pretrained a DNN to probabilistically filter evaluation candidates
-resulted in saving over 90% compute resources spent on LLM forward
-passes.</li>
-<li>Competition results: top 5%, bronze medal awarded.</li>
+<li>Independently developed efficient simulated annealing, and
+evolutionary algorithms to address large-scale black-box optimization
+problems, managing a search space of magnitude 9e157.</li>
+<li>Developed and trained a deep neural network to probabilistically
+filter evaluation candidates, achieving over 90% reduction in
+computational resources required for LLM forward passes.</li>
 <li><strong>Technologies used:</strong> <code>Pytorch</code>,
-<code>Sklearn</code>, <code>Simulated Annealing</code>,
-<code>Genetic Algorithm</code></li>
+<code>scikit-learn</code>, <code>Simulated Annealing</code>,
+<code>Genetic Algorithm</code>, <code>Numpy</code>,
+<code>Pandas</code></li>
 </ul>
 <h3 id="micromasters-in-statistics-and-data-science-mitx">MicroMasters
 in Statistics and Data Science, MITx</h3>
 <ul>
-<li>Earned the MITx MicroMasters in Statistics and Data Science, through
-a full-time year-long program spanning over 4 MIT graduate-level
+<li>Earned the MITx MicroMasters credential in Statistics and Data
+Science, over a year-long program spanning over 4 MIT graduate-level
 equivalent courses, including probability, statistics, machine learning,
 and computations in data analysis.</li>
-<li>Built solid practical transferable ML engineering skills, including
-data, features, modeling, deployment and stakeholder reporting.</li>
+<li>Built practical hands-on transferable ML engineering skills,
+including data and feature engineering, modeling development and
+deployment, tests, QA and MLOps pipelines.</li>
 </ul>
 <h2 id="professional-experience">Professional Experience</h2>
 <h3 id="business-english-instructor-founder">Business English
